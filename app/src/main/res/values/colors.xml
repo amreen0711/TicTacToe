@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="player1_bg">#D0E8FF</color>    <!-- Light blue background for X -->
+    <color name="player1_text">#100300</color>  <!-- Dark blue text for X -->
+    <color name="player2_bg">#FFD6D6</color>    <!-- Light red background for O -->
+    <color name="player2_text">#F4970C</color>  <!-- Dark red text for O -->
+    <color name="black">#000000</color>         <!-- Black for button -->
+</resources>
+
+

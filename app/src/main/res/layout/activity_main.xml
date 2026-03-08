@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/bg_transition">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#66000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4" />
+
+    <!-- Player 1 input -->
+    <EditText
+        android:id="@+id/etPlayer1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_input"
+        android:textColor="#000"
+        android:hint="Player 1 name"
+        android:textColorHint="#88000000"
+        android:padding="12dp"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Player 2 input -->
+    <EditText
+        android:id="@+id/etPlayer2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_input"
+        android:textColor="#000"
+        android:hint="Player 2 name"
+        android:textColorHint="#88000000"
+        android:padding="12dp"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Start button with selector -->
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_states"
+        android:textColor="#FFFFFF"
+        android:text="Start Game"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="6dp" />
+
+</LinearLayout>
