@@ -1,48 +1,37 @@
-# 🎮 Tic Tac Toe Android App
+# Tic Tac Toe Android App
 
-## 📌 Overview  
-This project is a fully functional Tic Tac Toe mobile application developed using Java and Android Studio. The app allows two players to play a turn-based game with a smooth user interface and persistent score tracking.
+## Overview  
+This project is a Tic Tac Toe mobile application built using Java and Android Studio. It allows two players to play a turn-based game with score tracking and a simple, responsive interface.
 
----
-
-## 🚀 Features  
-- Turn-based gameplay (Player X vs Player O)  
-- Win, lose, and draw detection logic  
-- Score tracking across multiple rounds  
+## Features  
+- Turn-based gameplay for two players  
+- Win, loss, and draw detection  
+- Score tracking across rounds  
 - Game reset functionality  
-- Interactive and responsive UI  
-- Visual feedback for player actions  
-- Persistent data storage using SharedPreferences  
+- Interactive user interface with real-time updates  
+- Data persistence using SharedPreferences  
 
----
+## Technologies Used  
+- Java  
+- Android Studio  
+- XML layouts  
+- SharedPreferences  
 
-## 🛠️ Technologies Used  
-- Java (Core game logic)  
-- Android Studio (Development environment)  
-- XML (UI design and layouts)  
-- SharedPreferences (Local data persistence)  
+## Core Concepts  
 
----
+2D Array (Game Board Matrix)  
+Used to represent and manage the state of the game board.
 
-## 🧠 Core Concepts Implemented  
+Event-Driven Programming  
+Handles user input through button listeners and updates the UI accordingly.
 
-**2D Array (Game Board Matrix):**  
-Used to manage and track the state of the game board efficiently.
+State Management  
+Controls player turns, game progress, and outcomes.
 
-**Event-Driven Programming:**  
-Handled user interactions using button listeners for real-time gameplay updates.
+Persistent Storage  
+SharedPreferences is used to store and maintain player scores across sessions.
 
-**State Management:**  
-Controlled player turns, round counts, and game outcomes.
+## Product Perspective  
+The application was designed with a focus on usability and simplicity, ensuring smooth gameplay and clear user interaction. Features were implemented to improve engagement and maintain a consistent experience across sessions.
 
-**Persistent Storage:**  
-Used SharedPreferences to store player scores across sessions.
-
----
-
-## 🎯 Product Perspective  
-This project focuses on user experience by providing intuitive gameplay, responsive interactions, and seamless data persistence. Features were designed with usability and engagement in mind.
-
----
-
-## 📂 Project Structure  
+## Project Structure  
