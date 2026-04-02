@@ -31,7 +31,4 @@ Controls player turns, game progress, and outcomes.
 Persistent Storage  
 SharedPreferences is used to store and maintain player scores across sessions.
 
-## Product Perspective  
-The application was designed with a focus on usability and simplicity, ensuring smooth gameplay and clear user interaction. Features were implemented to improve engagement and maintain a consistent experience across sessions.
 
-## Project Structure  
